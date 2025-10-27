@@ -302,7 +302,6 @@ const knownValue = result ? getKnownValue(result.n) : null;
     {/* Cek components */}
     {Array.isArray(specialResult.components) && (
       <div className="space-y-4">
-        <h3 className="text-xl font-semibold text-gray-900">Formula Components</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {specialResult.components.map((component, index) => (
             <div key={index} className="bg-white rounded-lg p-4 border border-gray-200 shadow-sm">
