@@ -257,9 +257,9 @@ const knownValue = result ? getKnownValue(result.n) : null;
             {/* Method 2: Special Formula */}
             <Card className="bg-white border-gray-200 shadow-lg">
               <CardHeader>
-                <CardTitle className="text-gray-900 text-2xl">Method 2: Special Mathematical Formula</CardTitle>
+                <CardTitle className="text-gray-900 text-2xl">Method 2: Analytical Reconstruction of ζ(2n+1) from ζ(2n)</CardTitle>
                 <CardDescription className="text-gray-600">
-                  Using advanced mathematical identities and series representations
+                  Using an even–to–odd zeta mapping based on Euler–Bernoulli relations
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
