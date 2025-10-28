@@ -67,7 +67,7 @@ const handleCalculate = async () => {
     setIsCalculating(true)           // ✅ bukan setLoading
 
   try {
-    const response = await fetch(`backendzether-production.up.railway.app`);
+    const response = await fetch(`https://backendzether-production.up.railway.app/calculate?n=${n}`);
     const data = await response.json();
 
 const formattedData = Array.isArray(data.convergence_data)
